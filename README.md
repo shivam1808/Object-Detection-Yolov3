@@ -8,20 +8,12 @@ When it comes to object detection, popular detection frameworks are
  * Faster R-CNN
  
  Support for running YOLO/DarkNet has been added to OpenCV dnn module recently. 
- 
- ## Dependencies
-  * opencv
-  * numpy
-  
-`pip install numpy opencv-python`
-
-**Note: Compatability with Python 2.x is not officially tested.**
 
  ## YOLO (You Only Look Once)
  
- Download the pre-trained YOLO v3 weights file from this [link](https://pjreddie.com/media/files/yolov3.weights) and place it in the current directory or you can directly download to the current directory in terminal using
+ Download the pre-trained YOLO v3 weights file from this [link](https://geuac-my.sharepoint.com/:u:/g/personal/shivamgupta_cse_geu_ac_in/ERID0BaSU9FOvQw3EYsURfwBygGy816SGqYs-Ki1UADKFg?e=SrXP5S) and place it in the current directory or you can directly download to the current directory in terminal using
  
- `$ wget https://pjreddie.com/media/files/yolov3.weights`
+ `$ wget https://geuac-my.sharepoint.com/:u:/g/personal/shivamgupta_cse_geu_ac_in/ERID0BaSU9FOvQw3EYsURfwBygGy816SGqYs-Ki1UADKFg?e=SrXP5S`
  
  Provided all the files are in the current directory, below command will apply object detection on the input image `dog.jpg`.
  
